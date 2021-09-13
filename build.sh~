@@ -1,0 +1,5 @@
+rm -rf www
+wasm-pack build
+npm init wasm-app www
+cd www
+npm install
